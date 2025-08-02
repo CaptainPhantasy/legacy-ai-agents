@@ -1,0 +1,45 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Logs
+*.log
+
+# Environment files (never commit these!)
+.env
+.env.local
+.env.*.local
+
+# Credentials (extra safety)
+*credentials*
+*secret*
+*key*
+*.pem
+*.key
+
+# Node (if you add any JS tools later)
+node_modules/
+
+# Python (if you add any Python tools later)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Backup files
+*.backup
+*.bak
+*~
